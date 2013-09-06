@@ -13,7 +13,8 @@ public class Pessoa {
 	
 	@Override
 	public String toString(){
-		return null;
+		String to_string = this.nome  + " - " + this.identidade + " - " + this.nascimento;
+		return to_string;
 	}
 	
 	public String getNome() {
